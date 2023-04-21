@@ -12,6 +12,9 @@ Web Client for The Auth. Built with React.
 - [React](https://github.com/facebook/react)
 - [React Redux](https://github.com/reduxjs/react-redux) for state management
 - [Axios](https://github.com/axios/axios) for API requests
+- [React Bootstrap](https://github.com/react-bootstra/) for UI
+
+
 
 ## 🛠️ Installation Steps
 
