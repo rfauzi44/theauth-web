@@ -55,7 +55,7 @@ function Login() {
         <Row className="justify-content-center">
           <Col md={6} lg={4}>
             <h1 className="text-center mb-4">Login first!</h1>
-            <p className="text-center mb-4">Login to dashboard. Bit fun if you try several validation scenario</p>
+            <p className="text-center mb-4">Before go to dashboard, login first.</p>
             <Form onSubmit={doLogin}>
               <Form.Group controlId="email" className="mb-3">
                 <Form.Control
