@@ -4,7 +4,7 @@ Web Client for The Auth. Built with React.
 
 ## 🔥 Showcase
 
-- [DEMO](https://documenter.getpostman.com/view/25042327/2s93Y3vLw1)
+- [DEMO](https://theauth.zfdlzr.xyz)
 - [RESTFul API](https://github.com/rfauzi44/theauth-api)
 
 ## 💻 Built with
