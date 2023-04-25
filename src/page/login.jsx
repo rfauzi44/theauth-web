@@ -14,8 +14,8 @@ function Login() {
   const api = useApi();
   const navigate = useNavigate();
   const [User, setUser] = useState({
-    email: "",
-    password: "",
+    email: "user@email.com",
+    password: "password",
   });
 
   const [errorMessage, setErrorMessage] = useState("");
@@ -63,6 +63,7 @@ function Login() {
                   placeholder="Email"
                   name="email"
                   onChange={onChangeInput}
+                  value={User.email}
                 />
               </Form.Group>
 
@@ -72,6 +73,7 @@ function Login() {
                   placeholder="Password"
                   name="password"
                   onChange={onChangeInput}
+                  value={User.password}
                 />
               </Form.Group>
 
