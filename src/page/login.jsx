@@ -14,8 +14,8 @@ function Login() {
   const api = useApi();
   const navigate = useNavigate();
   const [User, setUser] = useState({
-    email: "user@email.com",
-    password: "password",
+    email: "demo@email.com",
+    password: "demouser123",
   });
 
   const [errorMessage, setErrorMessage] = useState("");
