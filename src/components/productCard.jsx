@@ -53,12 +53,13 @@ function ProductCard(props) {
     return Number(number).toLocaleString("id-ID", {
       style: "currency",
       currency: "IDR",
+      minimumFractionDigits: 0,
     });
   }
 
   return (
     <Card style={{ margin: "10px" }}>
-      <Card.Img variant="top" src={props.image} />
+      <Card.Img style={{ height: "25vh", objectFit: "cover", objectPosition: "center" }} variant="top" src={props.image} />
       <Card.Body style={{display: "grid"}}>
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
