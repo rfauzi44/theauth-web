@@ -60,7 +60,7 @@ function Dash() {
         </div>
         <Row>
           {product.map((v) => (
-            <Col key={product.id} xs={12} sm={6} md={4} lg={3}>
+            <Col style= {{display: "flex"}}key={product.id} xs={12} sm={6} md={4} lg={3}>
               <ProductCard
                 id={v.id}
                 name={v.name}

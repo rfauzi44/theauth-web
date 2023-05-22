@@ -59,7 +59,7 @@ function ProductCard(props) {
   return (
     <Card style={{ margin: "10px" }}>
       <Card.Img variant="top" src={props.image} />
-      <Card.Body>
+      <Card.Body style={{display: "grid"}}>
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
         <Card.Text>
