@@ -4,7 +4,7 @@ Web Client for The Auth. Built with React.
 
 ## 🔥 Showcase
 
-- [DEMO](https://theauth.zfdlzr.xyz)
+- [DEMO](https://theauth-web.vercel.app)
 - [API Repository](https://github.com/rfauzi44/theauth-api)
 
 ## 💻 Built with
